@@ -14,7 +14,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: awscli
-   namespace: s3work
+  namespace: s3work
 spec:
   replicas: 3
   strategy:
