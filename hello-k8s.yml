@@ -13,7 +13,8 @@ spec:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: hello-k8s
+  name: awscli
+   namespace: s3work
 spec:
   replicas: 3
   strategy:
